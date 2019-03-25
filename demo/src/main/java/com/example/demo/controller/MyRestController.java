@@ -12,7 +12,7 @@ public class MyRestController {
 	
 	@RequestMapping("/")
 	public String hello() {
-		return "hello";
+		return "hello1";
 	}
 	
 	@RequestMapping("/hi")
@@ -24,6 +24,8 @@ public class MyRestController {
 		names.add("hello4");
 		names.add("hello5");
 		names.add("hello6");
+		names.add("hello7");
+
 
 		return names;
 	}
